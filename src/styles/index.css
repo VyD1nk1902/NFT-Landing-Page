@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Kite+One&display=swap");
+@import "tailwindcss";
+
+html,
+body {
+  font-family: var(--font-inter);
+  @apply bg-primary text-white font-inter;
+}
+
+h1 {
+  @apply font-bold;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+.hero-wrapper {
+  @apply md:max-w-[1429px] w-full mx-auto;
+}
+
+@theme {
+  --color-primary: oklch(0.2425 0.0446 273.34);
+  --color-secondary: rgba(51, 47, 208, 1);
+  --color-third: rgba(21, 191, 253, 1);
+  --color-fourth: rgba(245, 42, 245, 1);
+  --color-green: rgba(0, 255, 87, 1);
+  --color-red: rgba(255, 0, 0, 1);
+
+  --font-inter: Inter, "san-serif";
+  --font-jura: Jura, "san-serif";
+  --font-kite: Kite One, "san-serif";
+
+  --background-image-gradient-1: linear-gradient(93deg, #f52af5 4.14%, #dd37f5 31.35%, #219bf2 73.51%, #00adf2 95.21%);
+  --background-image-gradient-reversed: linear-gradient(
+    93deg,
+    #00adf2 4.14%,
+    #219bf2 31.35%,
+    #dd37f5 73.51%,
+    #f52af5 95.21%
+  );
+  --background-image-header: linear-gradient(
+    180deg,
+    rgba(30, 30, 30, 0) 0%,
+    rgba(30, 30, 30, 0) 0%,
+    rgba(30, 30, 30, 0.06) 0%,
+    rgba(30, 30, 30, 0.12) 24.92%,
+    rgba(30, 30, 30, 0.17) 61.77%,
+    rgba(30, 30, 30, 0.22) 100%
+  );
+}
