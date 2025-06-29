@@ -4,6 +4,8 @@ import Header from "../layout/Header";
 import ModalHeader from "../layout/ModalHeader";
 import Story from "../layout/Story";
 import LiveAcution from "../layout/LiveAcution";
+import Creator from "../layout/Creators";
+import Feature from "../layout/Feature";
 
 const DataCollection = [
   {
@@ -90,37 +92,72 @@ const AcutionData = [
     ava3: "/public/img/acution/ava-live-1-2.png",
   },
   {
-    background: "/public/img/acution/bg-1.png",
-    bid: "7.8",
-    title: "Golden Hour",
-    creator: "John Doe",
-    ava0: "/public/img/acution/ava-live-1-1.png",
-    ava1: "/public/img/acution/ava-live-1-2.png",
-    ava2: "/public/img/acution/ava-live-1-2.png",
-    ava3: "/public/img/acution/ava-live-1-2.png",
+    background: "/public/img/acution/bg-2.png",
+    bid: "3.9",
+    title: "Blue Panda",
+    creator: "lkema sjakw",
+    ava0: "/public/img/acution/ava-live-2-1.png",
+    ava1: "/public/img/acution/ava-live-2-2.png",
+    ava2: "/public/img/acution/ava-live-2-2.png",
+    ava3: "/public/img/acution/ava-live-2-2.png",
   },
   {
-    background: "/public/img/acution/bg-1.png",
-    bid: "7.8",
-    title: "Golden Hour",
-    creator: "John Doe",
-    ava0: "/public/img/acution/ava-live-1-1.png",
-    ava1: "/public/img/acution/ava-live-1-2.png",
-    ava2: "/public/img/acution/ava-live-1-2.png",
-    ava3: "/public/img/acution/ava-live-1-2.png",
+    background: "/public/img/acution/bg-3.png",
+    bid: "2.5",
+    title: "colourfull cat",
+    creator: "Dmd Gahn",
+    ava0: "/public/img/acution/ava-live-3-1.png",
+    ava1: "/public/img/acution/ava-live-3-2.png",
+    ava2: "/public/img/acution/ava-live-3-2.png",
+    ava3: "/public/img/acution/ava-live-3-2.png",
+  },
+];
+
+const CreatorData = [
+  {
+    img: "/public/img/creator/Ellipse 94.png",
+    name: "Emerson Philips",
+    value: "3.2",
+  },
+  {
+    img: "/public/img/creator/Ellipse 94.png",
+    name: "Emerson Philips",
+    value: "3.2",
+  },
+  {
+    img: "/public/img/creator/Ellipse 94.png",
+    name: "Emerson Philips",
+    value: "3.2",
+  },
+  {
+    img: "/public/img/creator/Ellipse 94.png",
+    name: "Emerson Philips",
+    value: "3.2",
+  },
+  {
+    img: "/public/img/creator/Ellipse 94.png",
+    name: "Emerson Philips",
+    value: "3.2",
+  },
+  {
+    img: "/public/img/creator/Ellipse 94.png",
+    name: "Emerson Philips",
+    value: "3.2",
   },
 ];
 
 const LandingPage = () => {
   return (
     <>
-      <div className="pb-[500px]">
+      <div>
         <Header />
         <ModalHeader />
         <Banner />
         <Story />
         <Collection collections={DataCollection} />
         <LiveAcution cardInfo={AcutionData} />
+        <Creator creator={CreatorData} />
+        <Feature />
       </div>
     </>
   );
