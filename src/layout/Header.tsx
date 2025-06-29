@@ -39,7 +39,7 @@ const Header = () => {
           <ul className="flex gap-8 font-jura ">
             {navMenuData.map((item) => (
               <li key={item.title}>
-                <a href={item.link} className="text-2xl">
+                <a href={item.link} className="text-2xl hover:text-third">
                   {item.title}
                 </a>
               </li>
