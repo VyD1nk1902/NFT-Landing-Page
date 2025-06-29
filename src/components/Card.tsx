@@ -3,9 +3,9 @@ import Ethereum from "../assets/Icons/Ethereum";
 import Button from "./Buttons";
 export default function CardAcution({ cardInfo }: CardAcutionProps) {
   return (
-    <div className="flex gap-8">
+    <div className="md:flex gap-8 ">
       {cardInfo.map((card, index) => (
-        <div key={index} className="relative w-[384px] h-[460px] px-4 pt-3 rounded-xl">
+        <div key={index} className="relative w-[384px] h-[460px]  px-4 pt-3 rounded-xl">
           <img className="absolute inset-0 w-full h-full object-cover z-0" src={card.background} />
           <div className="relative z-10 flex flex-col justify-between h-full p-4 text-white">
             <div className="flex justify-between">
