@@ -1,8 +1,12 @@
 import type { TopCollectionProps } from "../types/CollectionDataType";
 import Button from "../components/Buttons";
+import { useActiveTab } from "../stores/activeTab";
 
 const Collection = ({ collections }: TopCollectionProps) => {
+  const {activeTab, setTab} = useActiveTab();
+
   return (
+   
     <section className="hero-wrapper pt-64">
       <div className="flex justify-center items-center gap-9">
         <img src="/public/img/collection/Line 1.png" alt="" />
@@ -11,12 +15,13 @@ const Collection = ({ collections }: TopCollectionProps) => {
       </div>
 
       <div className="flex gap-12 py-12">
-        {["24H", "7D", "All Time"].map((tab) => (
+        {["24h", "7D", "All time"].map((tab) => (
           <Button
             key={tab}
             type="button"
             link=""
-            className={`text-2xl px-10 py-4 rounded-[25px] ${tab === "24H" ? "bg-fourth" : "bg-secondary"}`}
+            onClick={() => setTab(tab)}
+            className={`text-2xl px-10 py-4 rounded-[25px]  ${tab ===  activeTab ? "bg-fourth hover:bg-pink-200" : "bg-secondary hover:bg-third"}`}
           >
             {tab}
           </Button>
