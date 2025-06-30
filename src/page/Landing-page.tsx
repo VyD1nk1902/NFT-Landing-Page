@@ -6,6 +6,7 @@ import Story from "../layout/Story";
 import LiveAcution from "../layout/LiveAcution";
 import Creator from "../layout/Creators";
 import Feature from "../layout/Feature";
+import Footer from "../layout/Footer";
 
 const DataCollection = [
   {
@@ -104,7 +105,7 @@ const AcutionData = [
   {
     background: "/public/img/acution/bg-3.png",
     bid: "2.5",
-    title: "colourfull cat",
+    title: "Colourful cat",
     creator: "Dmd Gahn",
     ava0: "/public/img/acution/ava-live-3-1.png",
     ava1: "/public/img/acution/ava-live-3-2.png",
@@ -146,6 +147,30 @@ const CreatorData = [
   },
 ];
 
+const FooterContactData = [
+  {
+    title: "Marketplace",
+    link1: "Explore",
+    link2: "NFTs",
+    link3: "Collectibles",
+    link4: "Virtuallyreally",
+  },
+  {
+    title: "Company",
+    link1: "About Us",
+    link2: "Support",
+    link3: "Careers",
+    link4: "Contact us",
+  },
+  {
+    title: "Resourses",
+    link1: "Partners",
+    link2: "Blogs",
+    link3: "Help Center",
+    link4: "Live Action",
+  },
+];
+
 const LandingPage = () => {
   return (
     <>
@@ -158,6 +183,7 @@ const LandingPage = () => {
         <LiveAcution cardInfo={AcutionData} />
         <Creator creator={CreatorData} />
         <Feature />
+        <Footer contact={FooterContactData} />
       </div>
     </>
   );
