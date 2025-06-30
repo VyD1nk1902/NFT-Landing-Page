@@ -47,11 +47,7 @@ const Banner = () => {
         <div className="flex-1 sm:hidden md:block">
           <div className="relative isolate">
             <img src="/public/img/banner/BlueLine.png" className="absolute -z-10" alt="blue line" />
-            <img
-              srcSet="/public/img/banner/LogoBanner.png 2x"
-              className="absolute top-[-200px] right-25"
-              alt="logo banner"
-            />
+            <img srcSet="/img/banner/LogoBanner.png 2x" className="absolute top-[-200px] right-25" alt="logo banner" />
             <img src="/public/img/banner/bannerImg.png" className=" h-[614px] w-[526px]" alt="banner image" />
           </div>
         </div>
