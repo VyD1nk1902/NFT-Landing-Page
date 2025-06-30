@@ -1,7 +1,9 @@
 # React + TypeScript + Vite
 
-NFT Landing Page
-Figma Cut Practice
+NFT Landing Page.
+Figma Cut Practice.
+
+Figma Template: 👉 [NFT Lading Page](https://www.figma.com/design/CbFRFUB4X2bgbuRXEnmWJx/NFT-Lading-Page--Copy-?node-id=1-4&m=dev)
 
 ## Features
 
