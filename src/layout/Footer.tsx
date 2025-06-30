@@ -6,14 +6,14 @@ import { CiLinkedin } from "react-icons/ci";
 const Footer = ({ contact }: FooterContactProps) => {
   return (
     <>
-      <footer className="min-h-screen pb-[100px] bg-[url(public/img/footer/footer-bg.png)] w-full bg-cover bg-fixed bg-no-repeat bg-center">
+      <footer className="min-h-screen pb-[100px] bg-[url(/img/footer/footer-bg.png)] w-full bg-cover bg-fixed bg-no-repeat bg-center">
         <h2 className="md:text-[100px] text-4xl md:py-[140px] py-[100px] text-center">NFT Marketplace</h2>
         <div className="grid md:grid-cols-4 grid-cols-3 md:px-[150px] px-4 place-items-center ">
           <img src="/img/footer/footer-logo.png" className="hidden md:block" alt="" />
           {contact.map((contact) => (
             <div key={contact.title} className="flex flex-col gap-12">
               <h2 className="md:text-3xl text-lg font-bold ">{contact.title}</h2>
-              <ul className="text-xs flex flex-col gap-6 md:pl-7 p-0">
+              <ul className="text-xs md:text-2xl flex flex-col gap-6 md:pl-7 p-0">
                 <li>
                   <a href="#">{contact.link1} </a>
                 </li>
