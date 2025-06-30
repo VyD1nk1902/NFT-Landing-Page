@@ -17,7 +17,7 @@ button {
 }
 
 .hero-wrapper {
-  @apply md:max-w-[1429px] w-full mx-auto;
+  @apply md:max-w-[1429px] w-screen md:mx-auto;
 }
 
 @theme {
@@ -40,6 +40,13 @@ button {
     #dd37f5 73.51%,
     #f52af5 95.21%
   );
+
+  --background-image-gradient-circle: linear-gradient(
+    rgba(120, 46, 253, 1),
+    rgba(166, 31, 251, 1),
+    rgba(222, 12, 248, 1)
+  );
+
   --background-image-header: linear-gradient(
     180deg,
     rgba(30, 30, 30, 0) 0%,
