@@ -8,9 +8,9 @@ const Collection = ({ collections }: TopCollectionProps) => {
   return (
     <section className="hero-wrapper pt-64">
       <div className="flex justify-center items-center gap-4">
-        <img src="/public/img/collection/Line 1.png" className="w-20 md:w-fit" alt="" />
+        <img src="/img/collection/Line 1.png" className="w-20 md:w-fit" alt="" />
         <h1 className="md:text-5xl text-2xl">Top Collections</h1>
-        <img src="/public/img/collection/Line 2.png" className="w-20 md:w-fit" alt="" />
+        <img src="/img/collection/Line 2.png" className="w-20 md:w-fit" alt="" />
       </div>
 
       <div className="flex gap-12 py-12 justify-center md:justify-start">

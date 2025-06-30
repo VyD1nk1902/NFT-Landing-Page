@@ -20,8 +20,8 @@ const Banner = () => {
     <section className="pt-[100px] relative isolate">
       <div className="absolute w-[412px] h-[412px] rounded-full bg-[#2A3E84] blur-[175px] top-0 right-0"></div>
       <div className="absolute w-[412px] h-[412px] rounded-full bg-[#2A3E84] blur-[175px] top-0 left-0 -z-10"></div>
-      <img src="/public/img/Star 1.png" alt="star" className="absolute left-[47%]" />
-      <img src="/public/img/Star 2.png" alt="star" className="absolute left-[86%]" />
+      <img src="/img/Star 1.png" alt="star" className="absolute left-[47%]" />
+      <img src="/img/Star 2.png" alt="star" className="absolute left-[86%]" />
       <div className="hero-wrapper mt-[180px] flex items-center">
         <div className="max-w-[738px]">
           <h1 className="text-7xl md:text-8xl leading-snug font-jura">Discover</h1>
@@ -46,9 +46,9 @@ const Banner = () => {
         </div>
         <div className="flex-1 sm:hidden md:block">
           <div className="relative isolate">
-            <img src="/public/img/banner/BlueLine.png" className="absolute -z-10" alt="blue line" />
+            <img src="/img/banner/BlueLine.png" className="absolute -z-10" alt="blue line" />
             <img srcSet="/img/banner/LogoBanner.png 2x" className="absolute top-[-200px] right-25" alt="logo banner" />
-            <img src="/public/img/banner/bannerImg.png" className=" h-[614px] w-[526px]" alt="banner image" />
+            <img src="/img/banner/bannerImg.png" className=" h-[614px] w-[526px]" alt="banner image" />
           </div>
         </div>
       </div>

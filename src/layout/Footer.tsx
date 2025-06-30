@@ -9,7 +9,7 @@ const Footer = ({ contact }: FooterContactProps) => {
       <footer className="min-h-screen pb-[100px] bg-[url(public/img/footer/footer-bg.png)] w-full bg-cover bg-fixed bg-no-repeat bg-center">
         <h2 className="md:text-[100px] text-4xl md:py-[140px] py-[100px] text-center">NFT Marketplace</h2>
         <div className="grid md:grid-cols-4 grid-cols-3 md:px-[150px] px-4 place-items-center ">
-          <img src="/public/img/footer/footer-logo.png" className="hidden md:block" alt="" />
+          <img src="/img/footer/footer-logo.png" className="hidden md:block" alt="" />
           {contact.map((contact) => (
             <div key={contact.title} className="flex flex-col gap-12">
               <h2 className="md:text-3xl text-lg font-bold ">{contact.title}</h2>
