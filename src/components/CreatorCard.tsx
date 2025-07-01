@@ -1,5 +1,4 @@
 import type { CreatorProps } from "../types/Creators";
-import CreatorFrame from "../assets/CreatorFrame";
 const CreatorCard = ({ creator }: CreatorProps) => {
   return (
     <>
@@ -9,7 +8,6 @@ const CreatorCard = ({ creator }: CreatorProps) => {
           className="relative  w-[384px] h-[100px] sm:h-[150px] md:h-[180px]"
         >
           <div className="absolute flex inset-0 items-center justify-around">
-            {/* <CreatorFrame className="absolute inset-0 z-0 md:top-10 sm:top-5" /> */}
             <img
               src="/img/creator/Framebg.png"
               className="absolute inset-0 z-0 md:top-10 sm:top-5"
