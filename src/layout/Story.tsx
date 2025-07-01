@@ -15,7 +15,7 @@ const Story = () => {
         className="absolute -z-10 left-[86%] top-[45%]"
       />
       <div className=" md:max-w-[1360px] m-auto">
-        <div className="hero-wrapper flex flex-wrap gap-40 ">
+        <div className="hero-wrapper flex justify-center flex-wrap gap-40 ">
           <div className="md:w-[480px] md:block hidden">
             <img src="/img/story/StoryImg.png" alt="Story Image" />
           </div>
