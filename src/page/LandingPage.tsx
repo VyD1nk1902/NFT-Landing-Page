@@ -174,7 +174,7 @@ const FooterContactData = [
 const LandingPage = () => {
   return (
     <>
-      <div>
+      <div className="overflow-hidden">
         <Header />
         <ModalHeader />
         <Banner />
